@@ -1,7 +1,4 @@
--- ============================================================
--- 1) Limpieza opcional: DROPs (para re-ejecutar el script)
---    (Se dropean vistas y SP antes, luego tablas en orden de FKs)
--- ============================================================
+
 -- Vistas
 DROP VIEW IF EXISTS vw_metricas_video;
 DROP VIEW IF EXISTS vw_metricas_webinar;
