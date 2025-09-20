@@ -119,7 +119,7 @@ DELIMITER ;
 
 
 -- Tutores
-DROP PROCEDURE IF EXISTS sp_create_tutor;
+
 DELIMITER //
 CREATE PROCEDURE sp_create_tutor (
   IN p_nombre VARCHAR(150),
@@ -143,7 +143,6 @@ END//
 DELIMITER ;
 
 
-DROP PROCEDURE IF EXISTS sp_update_tutor;
 DELIMITER //
 CREATE PROCEDURE sp_update_tutor (
   IN p_idTutor CHAR(36),
@@ -274,7 +273,7 @@ END//
 DELIMITER ;
 
 
-DROP PROCEDURE IF EXISTS sp_update_webinar;
+
 DELIMITER //
 CREATE PROCEDURE sp_update_webinar (
   IN p_idWebinar CHAR(36),

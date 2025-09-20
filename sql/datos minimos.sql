@@ -22,5 +22,4 @@ VALUES (UUID(), @wid, 'Clase 1', 1800, TRUE);
 
 SET @vid := (SELECT idVideo FROM Videos WHERE idWebinar=@wid LIMIT 1);
 
-CALL sp_start_vista(@uid, @wid, @vid);
-CALL sp_progress_vista((SELECT idVista FROM VistasWebinar WHERE userId=@uid ORDER BY startedAt DESC LIMIT 1), 300);
+

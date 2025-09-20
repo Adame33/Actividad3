@@ -71,6 +71,6 @@ Puedes ejecutar estos archivos utilizando tu cliente de MySQL preferido.
 5. Ejecución de la Aplicación
 Una vez que la base de datos esté lista, puedes iniciar la aplicación.
 
-python .\app.py
+python .\main.py
 
 La aplicación ahora debería estar funcionando en tu entorno local.
